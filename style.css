@@ -1,0 +1,150 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(images/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.content{
+    width: 50%;
+    padding: 15% 10%;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 10%;
+}
+
+#name{
+    font-size: 50px;
+    color: #ff1771;
+}
+
+p{
+    font-size: 14px;
+    margin-bottom: 10%;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: #ff1771;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.image{
+    width: 50%;
+    padding: 7%;
+}
+
+.image img{
+    width: 100%;
+}
+
+#bio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(images/biography-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+h2{
+    font-size: 35px;
+    margin-bottom: 10%;
+}
+
+#work{
+    width: 100%;
+    background-image: url(images/latest-work-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#work h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#latestWork{
+    display: flex;
+    justify-content: center;
+}
+
+.workImg{
+    width: 30%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 10%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+#client{
+    width: 100%;
+    text-align: center;
+    padding: 2% 10%;
+    background-image: url(images/footer-bg.png);
+    background-size: cover;
+}
+
+#client h2{
+    margin: 5%;
+}
+
+#cName{
+    margin: 2px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#cTitle{
+    margin-bottom: 5%;
+    font-size: 12px;
+    color: #605f5f;
+}
+
+#contact{
+    background-image: linear-gradient(90deg, #fa5393, #e32870);
+    color: white;
+    border-radius: 20px;
+}
+
+#contact p{
+    padding: 2%;
+    margin: 1%;
+    font-weight: bold;
+}
+
+#email{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+footer p{
+    margin-top: 15%;
+    margin-bottom: 0%;
+    padding: 0%;
+}
